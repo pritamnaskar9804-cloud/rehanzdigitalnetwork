@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Pritam Naskar (RehanZ) — Full Stack Web Developer. Building premium, responsive, and custom websites for global clients. Available for freelance projects." />
+  <meta name="keywords" content="Full Stack Developer, Web Developer, React Developer, Node.js, Freelance Developer India, Pritam Naskar, RehanZ" />
+  <meta name="author" content="Pritam Naskar" />
+  <meta property="og:title" content="RehanZ · Full Stack Developer" />
+  <meta property="og:description" content="Premium websites & web apps — built to convert." />
+  <meta property="og:type" content="website" />
+  <title>RehanZ · Pritam Naskar — Full Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ░░ LOADER ░░ -->
+<div id="loader">
+  <div class="loader-inner">
+    <span class="loader-brand">RZ</span>
+    <div class="loader-bar"><div class="loader-fill"></div></div>
+  </div>
+</div>
+
+<!-- ░░ CURSOR ░░ -->
+<div id="cursor"></div>
+<div id="cursor-trail"></div>
+
+<!-- ░░ NAVBAR ░░ -->
+<nav id="navbar">
+  <a class="nav-brand" href="#hero">Rehan'Z Network<span class="dot">.</span></a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#testimonials">Reviews</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="nav-actions">
+    <button id="theme-toggle" aria-label="Toggle theme">☀</button>
+    <a href="#contact" class="btn-hire">Hire Me</a>
+  </div>
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ░░ MOBILE MENU ░░ -->
+<div class="mobile-menu" id="mobile-menu">
+  <ul>
+    <li><a href="#about" class="mob-link">About</a></li>
+    <li><a href="#skills" class="mob-link">Skills</a></li>
+    <li><a href="#projects" class="mob-link">Projects</a></li>
+    <li><a href="#services" class="mob-link">Services</a></li>
+    <li><a href="#testimonials" class="mob-link">Reviews</a></li>
+    <li><a href="#contact" class="mob-link">Contact</a></li>
+    <li><a href="#contact" class="mob-link mob-hire">Hire Me →</a></li>
+  </ul>
+</div>
+
+<!-- ░░ HERO ░░ -->
+<section id="hero">
+  <canvas id="particle-canvas"></canvas>
+  <div class="hero-content">
+    <div class="hero-badge reveal">Available for Your Project</div>
+    <h1 class="hero-name reveal">
+      <span class="name-line">Pritam</span>
+      <span class="name-line accent-stroke">Naskar</span>
+    </h1>
+    <p class="hero-title reveal"><span id="typed-text"></span><span class="cursor-blink">|</span></p>
+    <p class="hero-sub reveal">I craft fast, beautiful, and conversion-focused websites that help businesses grow. From sleek landing pages to full-stack web apps — let's build something remarkable.</p>
+    <div class="hero-cta reveal">
+      <a href="#projects" class="btn-primary">View Projects <span class="btn-arrow">→</span></a>
+      <a href="#contact" class="btn-secondary">Let's Talk</a>
+      <a href="resume.pdf" class="btn-ghost" download>Download CV ↓</a>
+    </div>
+    <div class="hero-stats reveal">
+      <div class="stat"><span class="count" data-target="25">0</span><span>+</span><p>Projects</p></div>
+      <div class="stat-div"></div>
+      <div class="stat"><span class="count" data-target="17">0</span><span>+</span><p>Clients</p></div>
+      <div class="stat-div"></div>
+      <div class="stat"><span class="count" data-target="3">0</span><span>+</span><p>Years Exp.</p></div>
+    </div>
+  </div>
+  <div class="hero-scroll-hint">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- ░░ ABOUT ░░ -->
+<section id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-image-wrap reveal-left">
+        <div class="about-img-frame">
+          <div class="about-img-placeholder">
+  <img src="Profile-Pic.jpeg" alt="Pritam Naskar">
+</div>
+          <div class="about-badge-float">💻 Pritam Naskar</div>
+        </div>
+        <div class="about-decorline"></div>
+      </div>
+      <div class="about-text reveal-right">
+        <p class="section-eyebrow">Who I Am</p>
+        <h2 class="section-title">Turning ideas into <em>digital reality</em></h2>
+        <p class="about-body">I'm Pritam Naskar — a passionate full stack web developer based in India, building premium digital experiences for clients worldwide. I specialize in creating websites that don't just look great, but actually <strong>perform</strong> and convert visitors into customers.</p>
+        <p class="about-body">My approach combines clean code, modern design principles, and a deep understanding of what clients actually need. Whether it's a sleek portfolio, a scalable business platform, or a custom web application — I bring precision and creativity to every project.</p>
+        <div class="about-pills">
+          <span>Problem Solver</span>
+          <span>Clean Coder</span>
+          <span>Fast Learner</span>
+          <span>Detail Oriented</span>
+          <span>Client Focused</span>
+        </div>
+        <a href="#contact" class="btn-primary mt-btn">Work With Me →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ░░ SKILLS ░░ -->
+<section id="skills">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="section-eyebrow">My Arsenal</p>
+      <h2 class="section-title">Skills & Technologies</h2>
+    </div>
+    <div class="skills-grid">
+
+      <div class="skill-card reveal" data-delay="0">
+        <div class="skill-icon">
+          <svg viewBox="0 0 32 32" fill="none"><path d="M4 4l2.4 26.4L16 32l9.6-1.6L28 4H4z" fill="#E44D26"/><path d="M16 29.6l7.8-2.2 2-22.4H16v24.6z" fill="#F16529"/><path d="M16 13.6h-4.4l-.3-3.4H16V6.8H7.6l.1.8 1 10.8H16v-4.8zm0 8.4l-.1.1-3.8-1-.3-2.8H8.4l.5 5.2L16 25v-3z" fill="#fff"/><path d="M16 13.6v4.8h4l-.4 4.6-3.6.9v3l6.8-1.9.1-.7.8-9.1.1-.8H16z" fill="#fff"/></svg>
+        </div>
+        <h3>HTML5</h3>
+        <p>Semantic, accessible markup with modern standards</p>
+        <div class="skill-bar"><div class="skill-fill" data-width="92"></div></div>
+        <span class="skill-pct">92%</span>
+      </div>
+
+      <div class="skill-card reveal" data-delay="1">
+        <div class="skill-icon">
+          <svg viewBox="0 0 32 32" fill="none"><path d="M4 4l2.4 26.4L16 32l9.6-1.6L28 4H4z" fill="#2965F1"/><path d="M16 29.6l7.8-2.2 2-22.4H16v24.6z" fill="#264DE4"/><path d="M16 13.6h4.3l-.3 3.4-4 1.1v3.1l4-.1.4-4.5H16v-3h8.4l-.1.7-1 11.5-.1.7L16 28.2V25l3.8-.9.3-3.5H16v-7zm-4.4 0H16v-3H8L8.6 18h7.4v3.6h-4l-.3-2.8H8.4l.5 5.2L16 25v3.2L9.2 26.5l-.6-6.3H12l.2 2.4 3.8 1 .1-.1v-3.1L12 19.6l-.3-3.4L16 13.6h-4.4z" fill="#fff"/></svg>
+        </div>
+        <h3>CSS3</h3>
+        <p>Animations, Grid, Flexbox, responsive design systems</p>
+        <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+        <span class="skill-pct">90%</span>
+      </div>
+
+      <div class="skill-card reveal" data-delay="2">
+        <div class="skill-icon">
+          <svg viewBox="0 0 32 32" fill="none"><path d="M2 2h28v28H2z" fill="#F7DF1E"/><path d="M21.2 23.6c.5.8 1.1 1.4 2.3 1.4 1 0 1.6-.5 1.6-1.1 0-.8-.6-1.1-1.7-1.6l-.6-.3c-1.7-.7-2.8-1.6-2.8-3.5 0-1.7 1.3-3 3.4-3 1.5 0 2.6.5 3.3 1.8l-1.8 1.2c-.4-.7-.8-1-1.5-1-.7 0-1.1.4-1.1 1 0 .7.4 1 1.5 1.5l.6.3c2 .9 3.1 1.7 3.1 3.7 0 2.1-1.6 3.2-3.9 3.2-2.2 0-3.6-1-4.3-2.4l1.9-1.2zm-9 .2c.3.6.6 1.1 1.3 1.1.7 0 1.1-.3 1.1-1.3v-7.2h2.3v7.2c0 2.1-1.2 3.1-3 3.1-1.6 0-2.5-.8-3-1.9l2.3-1z" fill="#000"/></svg>
+        </div>
+        <h3>JavaScript</h3>
+        <p>ES6+, DOM manipulation, async/await, APIs</p>
+        <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+        <span class="skill-pct">88%</span>
+      </div>
+
+      <div class="skill-card reveal" data-delay="3">
+        <div class="skill-icon">
+          <svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="16" fill="#222"/><path d="M16 5.8C10.3 5.8 5.8 10.3 5.8 16c0 4.5 2.9 8.3 7 9.7.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.4-3.4-1.4-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.8.8.1-.6.3-1.1.6-1.4-2.2-.2-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.2-.4-1.3.1-2.7 0 0 .8-.3 2.8 1 .8-.2 1.7-.3 2.6-.3.9 0 1.8.1 2.6.3 1.9-1.3 2.8-1 2.8-1 .5 1.4.2 2.5.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.4 4.8-4.6 5 .4.3.7.9.7 1.9v2.8c0 .3.2.6.7.5 4.1-1.4 7-5.2 7-9.7 0-5.7-4.5-10.2-10.2-10.2z" fill="#fff"/></svg>
+        </div>
+        <h3>React</h3>
+        <p>Hooks, Context, component architecture, SPA development</p>
+        <div class="skill-bar"><div class="skill-fill" data-width="82"></div></div>
+        <span class="skill-pct">82%</span>
+      </div>
+
+      <div class="skill-card reveal" data-delay="4">
+        <div class="skill-icon">
+          <svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="16" fill="#333"/><path d="M10.5 22.5l-1.8-1c.2-.3.4-.7.5-1.1.1-.4.2-.8.2-1.3v-9h2.1v9c0 .7-.1 1.4-.3 2-.2.6-.4 1.1-.7 1.4zm4.3.3c-1.4 0-2.5-.3-3.3-.9l1-1.6c.7.5 1.5.7 2.4.7.8 0 1.4-.2 1.8-.5.4-.3.6-.8.6-1.5v-9.3h2.1v9.4c0 1.2-.4 2.1-1.2 2.8-.8.6-1.9.9-3.4.9z" fill="#68A063"/></svg>
+        </div>
+        <h3>Node.js</h3>
+        <p>REST APIs, Express.js, server-side logic, databases</p>
+        <div class="skill-bar"><div class="skill-fill" data-width="78"></div></div>
+        <span class="skill-pct">78%</span>
+      </div>
+
+      <div class="skill-card reveal" data-delay="5">
+        <div class="skill-icon">
+          <svg viewBox="0 0 32 32" fill="none"><path d="M16 2.7l13.3 7.7v15.4L16 33.3 2.7 25.8V10.4L16 2.7z" fill="#F05032"/><path d="M25.1 14.7h-4.3v-4.3h-9.6v4.3H6.9l9.1 9 9.1-9zm-13.9 5.7v4.3h9.6v-4.3h-9.6z" fill="#fff"/></svg>
+        </div>
+        <h3>Git / GitHub</h3>
+        <p>Version control, branching, collaboration, open source</p>
+        <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+        <span class="skill-pct">85%</span>
+      </div>
+
+      <div class="skill-card reveal" data-delay="6">
+        <div class="skill-icon">
+          <svg viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="8" fill="#7C3AED"/><path d="M8 10h16M8 16h10M8 22h13" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Responsive Design</h3>
+        <p>Mobile-first, fluid layouts, cross-browser compatibility</p>
+        <div class="skill-bar"><div class="skill-fill" data-width="93"></div></div>
+        <span class="skill-pct">93%</span>
+      </div>
+
+      <div class="skill-card reveal" data-delay="7">
+        <div class="skill-icon">
+          <svg viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="8" fill="#0EA5E9"/><path d="M7 16l5 5 13-13" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>API Integration</h3>
+        <p>REST APIs, fetch, Axios, third-party services</p>
+        <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+        <span class="skill-pct">80%</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ░░ PROJECTS ░░ -->
+<section id="projects">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="section-eyebrow">My Work</p>
+      <h2 class="section-title">Featured Projects</h2>
+    </div>
+    <div class="filter-bar reveal">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+      <button class="filter-btn" data-filter="frontend">Frontend</button>
+      <button class="filter-btn" data-filter="business">Business</button>
+    </div>
+    <div class="projects-grid">
+
+      <div class="project-card reveal" data-category="fullstack">
+        <div class="project-img" style="background: linear-gradient(135deg,#1e293b,#7c3aed)">
+          <span class="project-emoji">📚</span>
+        </div>
+        <div class="project-body">
+          <div class="project-tags"><span>React</span><span>Node.js</span><span>MongoDB</span></div>
+          <h3>BookNest — Book Review Platform</h3>
+          <p>A full-stack book review platform with user authentication, rating system, search, and personalised reading lists. RESTful API backend with JWT auth.</p>
+          <div class="project-actions">
+            <a href="#" class="btn-proj-primary" target="_blank">Live Demo →</a>
+            <a href="#" class="btn-proj-ghost" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal" data-category="business">
+        <div class="project-img" style="background: linear-gradient(135deg,#0f172a,#0ea5e9)">
+          <span class="project-emoji">🏢</span>
+        </div>
+        <div class="project-body">
+          <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <h3>Luxe Interior — Business Website</h3>
+          <p>A premium interior design agency website with smooth animations, gallery, testimonials, and a lead-generation contact form. Pixel-perfect responsive design.</p>
+          <div class="project-actions">
+            <a href="#" class="btn-proj-primary" target="_blank">Live Demo →</a>
+            <a href="#" class="btn-proj-ghost" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal" data-category="frontend">
+        <div class="project-img" style="background: linear-gradient(135deg,#1e293b,#f59e0b)">
+          <span class="project-emoji">🛒</span>
+        </div>
+        <div class="project-body">
+          <div class="project-tags"><span>React</span><span>Context API</span><span>CSS</span></div>
+          <h3>ShopSpark — E-commerce UI</h3>
+          <p>A modern e-commerce storefront built with React. Features include product filtering, cart management, wishlist, and a responsive checkout flow.</p>
+          <div class="project-actions">
+            <a href="#" class="btn-proj-primary" target="_blank">Live Demo →</a>
+            <a href="#" class="btn-proj-ghost" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal" data-category="fullstack">
+        <div class="project-img" style="background: linear-gradient(135deg,#0f172a,#10b981)">
+          <span class="project-emoji">📋</span>
+        </div>
+        <div class="project-body">
+          <div class="project-tags"><span>React</span><span>Node.js</span><span>Express</span></div>
+          <h3>TaskFlow — Project Manager</h3>
+          <p>A kanban-style project management tool with drag-and-drop tasks, team collaboration, real-time updates, and deadline tracking. Full MERN stack.</p>
+          <div class="project-actions">
+            <a href="#" class="btn-proj-primary" target="_blank">Live Demo →</a>
+            <a href="#" class="btn-proj-ghost" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal" data-category="frontend">
+        <div class="project-img" style="background: linear-gradient(135deg,#1e293b,#ec4899)">
+          <span class="project-emoji">🎨</span>
+        </div>
+        <div class="project-body">
+          <div class="project-tags"><span>HTML</span><span>CSS</span><span>GSAP</span></div>
+          <h3>ArtVault — Creative Portfolio</h3>
+          <p>An award-worthy creative portfolio for a digital artist, featuring scroll-triggered animations, parallax effects, and a bespoke gallery experience.</p>
+          <div class="project-actions">
+            <a href="#" class="btn-proj-primary" target="_blank">Live Demo →</a>
+            <a href="#" class="btn-proj-ghost" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal" data-category="business">
+        <div class="project-img" style="background: linear-gradient(135deg,#0f172a,#f97316)">
+          <span class="project-emoji">🍕</span>
+        </div>
+        <div class="project-body">
+          <div class="project-tags"><span>React</span><span>API</span><span>Stripe</span></div>
+          <h3>QuickBite — Restaurant Platform</h3>
+          <p>A full-featured restaurant ordering website with menu management, online ordering, Stripe payment integration, and a real-time order tracking system.</p>
+          <div class="project-actions">
+            <a href="#" class="btn-proj-primary" target="_blank">Live Demo →</a>
+            <a href="#" class="btn-proj-ghost" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ░░ SERVICES ░░ -->
+<section id="services">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="section-eyebrow">What I Offer</p>
+      <h2 class="section-title">Services</h2>
+    </div>
+    <div class="services-grid">
+
+      <div class="service-card reveal">
+        <div class="service-num">01</div>
+        <div class="service-icon">🏢</div>
+        <h3>Business Websites</h3>
+        <p>Professional, conversion-focused business websites that establish credibility and generate leads. Custom design, no templates.</p>
+        <ul><li>Brand-aligned design</li><li>Lead capture forms</li><li>SEO-ready structure</li></ul>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-num">02</div>
+        <div class="service-icon">👤</div>
+        <h3>Portfolio Websites</h3>
+        <p>Standout personal portfolios that showcase your work beautifully and help you land opportunities faster.</p>
+        <ul><li>Unique, memorable design</li><li>Smooth animations</li><li>Fast performance</li></ul>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-num">03</div>
+        <div class="service-icon">🚀</div>
+        <h3>Landing Pages</h3>
+        <p>High-converting landing pages built to maximise conversions. A/B tested layouts with clear calls-to-action.</p>
+        <ul><li>CRO-focused design</li><li>Fast load times</li><li>Mobile-first</li></ul>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-num">04</div>
+        <div class="service-icon">🔄</div>
+        <h3>Website Redesign</h3>
+        <p>Transform your outdated website into a modern, high-performance digital asset. Same content — drastically better experience.</p>
+        <ul><li>Modern UI/UX</li><li>Performance audit</li><li>Brand refresh</li></ul>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-num">05</div>
+        <div class="service-icon">🔧</div>
+        <h3>Bug Fixing & Support</h3>
+        <p>Quick, reliable solutions to website bugs, performance issues, and technical problems. Fast turnaround guaranteed.</p>
+        <ul><li>Rapid diagnosis</li><li>Clean fixes</li><li>Ongoing support</li></ul>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-num">06</div>
+        <div class="service-icon">⚙️</div>
+        <h3>Custom Web Apps</h3>
+        <p>Full-stack web applications tailored to your business needs. From idea to deployment — end-to-end development.</p>
+        <ul><li>React + Node.js</li><li>Database design</li><li>API integration</li></ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ░░ TESTIMONIALS ░░ -->
+<section id="testimonials">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="section-eyebrow">Client Words</p>
+      <h2 class="section-title">What Clients Say</h2>
+    </div>
+    <div class="testi-grid">
+
+      <div class="testi-card reveal">
+        <div class="testi-stars">★★★★★</div>
+        <p>"Pritam delivered our Reservation management website in record time. The design is stunning, our bounce rate dropped by 40%, and sales have genuinely increased since launch. Exceptional work!"</p>
+        <div class="testi-author">
+          <div class="testi-avatar">SM</div>
+          <div><strong>Singharaj Roy</strong><span>Founder, Hotel and Food Chain — Kolkata</span></div>
+        </div>
+      </div>
+
+      <div class="testi-card reveal">
+        <div class="testi-stars">★★★★★</div>
+        <p>"Working with RehanZ was a fantastic experience. He understood exactly what we needed, communicated clearly throughout, and delivered a website that truly represents our brand. Highly recommended!"</p>
+        <div class="testi-author">
+          <div class="testi-avatar">AK</div>
+          <div><strong>Ahmed Khalil</strong><span>CEO, IT Startup  — Pune</span></div>
+        </div>
+      </div>
+
+      <div class="testi-card reveal">
+        <div class="testi-stars">★★★★★</div>
+        <p>"Our restaurant's online ordering system is perfect. Pritam built exactly what we envisioned — clean, fast, and easy for customers to use. Orders have increased by 60% online!"</p>
+        <div class="testi-author">
+          <div class="testi-avatar">PR</div>
+          <div><strong>Priya Rajan</strong><span>CEO of Cafelogy, — Kolkata</span></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ░░ CONTACT ░░ -->
+<section id="contact">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info reveal-left">
+        <p class="section-eyebrow">Let's Connect</p>
+        <h2 class="section-title">Ready to build something <em>great?</em></h2>
+        <p class="contact-sub">I'm currently open to freelance projects. Whether you have a clear brief or just an idea — let's talk.</p>
+        <div class="contact-links">
+          <a href="mailto:rehanznetwork@gmail.com" class="contact-link">
+            <span class="cl-icon">✉</span>
+            <div><strong>Email</strong><span>Rehanznetwork</span></div>
+          </a>
+          <a href="www.linkedin.com/in/pritam-naskar-202144234" class="contact-link" target="_blank">
+            <span class="cl-icon">in</span>
+            <div><strong>LinkedIn</strong><span>Pritam Naskar</span></div>
+          </a>
+          <a href="https://github.com/pritamnaskar9804-cloud" class="contact-link" target="_blank">
+            <span class="cl-icon">⌥</span>
+            <div><strong>GitHub</strong><span></span>Pritam Naskar</span></div>
+          </a>
+          <a href="https://wa.me/918777696189" class="contact-link whatsapp" target="_blank">
+            <span class="cl-icon">💬</span>
+            <div><strong>WhatsApp</strong><span>Click to chat directly</span></div>
+          </a>
+          <a href="https://www.instagram.com/rehanz_digital_network_/" class="contact-link Instagram" target="_blank">
+            <span class="cl-icon">In</span>
+            <div><strong>Instagram</strong><span>Rehan'Z Digital Networkk</span></div>
+          </a>
+        </div>
+      </div>
+      <div class="contact-form-wrap reveal-right">
+        <form id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" placeholder="John Smith" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" placeholder="john@company.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="project-type">Project Type</label>
+            <select id="project-type">
+              <option value="">Select a service...</option>
+              <option>Business Website</option>
+              <option>Portfolio Website</option>
+              <option>Landing Page</option>
+              <option>Website Redesign</option>
+              <option>Bug Fixing</option>
+              <option>Custom Web App</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Tell me about your project</label>
+            <textarea id="message" rows="5" placeholder="Describe your project, goals, timeline, and budget..." required></textarea>
+          </div>
+          <button type="submit" class="btn-submit">Send Message <span>→</span></button>
+          <div id="form-status"></div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ░░ FOOTER ░░ -->
+<footer id="footer">
+  <div class="container">
+    <div class="footer-top">
+      <a class="footer-brand" href="#hero">RehanZ<span class="dot">.</span></a>
+      <p>Building the web, one pixel at a time.</p>
+      <div class="footer-socials">
+        <a href="https://github.com/pritamnaskar9804-cloud" target="_blank" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.5.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0112 6.8c.85 0 1.71.11 2.51.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10.01 10.01 0 0022 12c0-5.52-4.48-10-10-10z"/></svg>
+        </a>
+        <a href="wwww.linkedin.com/in/pritam-naskar-202144234" target="_blank" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 110-4.12 2.06 2.06 0 010 4.12zM6.89 20.45H3.77V9H6.9v11.45z"/></svg>
+        </a>
+        <a href="https://wa.me/918777696189" target="_blank" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.47 14.38c-.29-.15-1.73-.85-2-.95-.27-.1-.46-.15-.65.15-.19.29-.75.95-.92 1.14-.17.19-.34.22-.63.07a7.97 7.97 0 01-2.35-1.45 8.78 8.78 0 01-1.63-2.02c-.17-.29-.02-.45.13-.6.13-.13.29-.34.44-.51.15-.17.19-.29.29-.48.1-.19.05-.36-.02-.51-.07-.15-.65-1.57-.89-2.15-.23-.56-.47-.49-.65-.5h-.55c-.19 0-.5.07-.76.36-.26.29-1 1-1 2.43 0 1.44 1.03 2.83 1.17 3.02.15.19 2.02 3.09 4.9 4.33 2.88 1.24 2.88.83 3.4.78.52-.05 1.67-.68 1.9-1.34.24-.65.24-1.21.17-1.34-.07-.12-.26-.19-.55-.34zM12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.38 5.06L2 22l5.06-1.36A9.93 9.93 0 0012 22c5.52 0 10-4.48 10-10S17.52 2 12 2z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/rehanz_digital_network_/" target="_blank" aria-label="Instagram">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+</svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Pritam Naskar · RehanZ. All rights reserved.</p>
+      <p>Designed & Built by <strong>Pritam Naskar</strong></p>
+    </div>
+  </div>
+</footer>
+
+<!-- ░░ BACK TO TOP ░░ -->
+<button id="back-top" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
